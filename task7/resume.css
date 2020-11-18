@@ -1,0 +1,91 @@
+body {
+	background-color: #f5f5f5;
+	margin: auto 12%;
+}
+section {
+	height: 220px;
+	text-align: center;
+	background-color: grey;
+}
+
+.avatar {
+	margin-top: 3%;
+	width: 150px;
+	border: 3.5px dotted orange;
+	border-radius: 500px;
+}
+
+.name {
+	color: white;
+	font-size: 35px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: absolute;
+	background-color: orange;
+	text-align: center;
+	margin: -50px 150px -45px 470px;
+	padding: 20px 40px;
+}
+
+.bottomGrey {
+	background-color: grey;
+}
+
+.info {
+	text-align: center;
+	color: #999999;
+}
+
+.profileImg {
+	width: 35px;
+	margin-top: 5%;
+	border: 3.5px dotted orange;
+	border-radius: 500px;
+}
+
+.vl {
+	border-left: 1px solid grey;
+	height: 1350px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 48%;
+}
+
+.leftcontent {
+	margin-left: 2%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: large;
+}
+
+.rightcontent {
+	margin-left: 4%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: large;
+}
+
+.icons {
+	width: 35px;
+	border: 3px dotted orange;
+	border-radius: 500px;
+}
+
+.slider {
+	margin-left: 120px;
+}
+
+* {
+	box-sizing: border-box;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}

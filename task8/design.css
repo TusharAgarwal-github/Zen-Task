@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+	background-color: black;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position: relative;
+	margin: 0 19%;
+	width: 60%;
+}
+
+.main::after {
+	content: '';
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	height: 99%;
+	width: 94%;
+	border: 2px dotted white;
+	border-radius: 25px;
+}
+
+.div_one {
+	color: white;
+	text-align: center;
+	height: 320px;
+	padding: 45px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+}
+
+.headerone {
+	margin-top: 10%;
+}
+
+.header::first-letter {
+	font-size: 100px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.transformDivs {
+	position: relative;
+	padding: 100px;
+	top: 187px;
+	left: 0;
+	height: 308px;
+	transform: skewY(-4.4deg);
+}
+
+.transformDivs h1,
+h3,
+p {
+	transform: skewY(4.4deg);
+}
+
+.div_two {
+	background-color: #e6ddd4;
+}
+
+.div_three {
+	background-color: #17111f;
+}
+
+.div_four {
+	background-color: #ebc5cb;
+}
+
+.div_five {
+	background-color: #f2a2b5;
+}
+
+.div_six {
+	background-color: #c4cbd3;
+}
+
+.div_seven {
+	background-color: #291b32;
+}
+
+.div_eight {
+	background-color: #fad6db;
+}
+
+.div_nine {
+	background-color: #dfc9b7;
+}
+
+.transformDivsTen {
+	position: relative;
+	padding: 100px;
+	top: 187px;
+	left: 0;
+	height: 350px;
+	transform: skewY(-4.4deg);
+}
+
+.transformDivsTen h1,
+h3,
+p {
+	transform: skewY(4.4deg);
+}
+
+.innerBorder {
+	border: 1px solid #000;
+}
+
+.content-right {
+	color: white;
+	margin-left: 30%;
+}

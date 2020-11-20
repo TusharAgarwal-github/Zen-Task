@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+body {
+	background-color: #fdfdfd;
+}
+
+.title {
+	font-family: 'Asul', cursive;
+	font-size: 100px;
+	text-align: center;
+}
+
+.headerPhoto {
+	width: 80%;
+}
+
+.content {
+	text-align: center;
+}
+
+.content p {
+	text-align: left;
+}
+
+.snippets {
+	margin-left: 20%;
+	width: 40%;
+}
+
+.highlights p {
+	max-width: 90%;
+}
+
+.rightSide {
+	border: 1px solid black;
+}
+
+@media (min-width: 1200px) {
+	.subheader {
+		margin-left: 19%;
+	}
+
+	.links {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.subheader {
+		margin-left: 20%;
+	}
+
+	.links {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.subheader {
+		margin-left: 13%;
+	}
+
+	.links {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.subheader {
+		margin-left: 33%;
+	}
+}
+
+@media (max-width: 575px) {
+	.subheader {
+		margin-left: 20%;
+	}
+}
